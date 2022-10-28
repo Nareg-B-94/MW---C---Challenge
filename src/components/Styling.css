@@ -1,0 +1,44 @@
+.content {
+  border: 2px dotted black;
+  max-width: 600px;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  padding-inline: 50px;
+}
+.list {
+  height: 200px;
+  overflow-y: auto;
+  border: double 2px rgb(1, 77, 77);
+}
+.divider {
+  border: black 2px dotted;
+  margin: 5px;
+}
+.content2 {
+  border: 5px dotted rgb(87, 85, 85);
+  max-width: 600px;
+  margin: 50px;
+  padding-inline: 50px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+.buttonDesign {
+  border-radius: 15px;
+  background-color: aqua;
+}
+.buttonDesign:hover {
+  background-color: aquamarine;
+  font-weight: bold;
+}
+
+.buttonDesign2 {
+  border-radius: 15px;
+  background-color: rgb(90, 114, 250);
+}
+.buttonDesign2:hover {
+  background-color: rgb(0, 240, 60);
+  font-weight: bold;
+}
